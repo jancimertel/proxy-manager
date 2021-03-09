@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "lib": ["es2016", "dom"],
+    "target": "es5",
+    "experimentalDecorators": true,
+    "skipLibCheck": true
+  },
+  "include": ["*.ts", "scraper/scraper.ts"],
+  "typeAcquisition": {
+    "include": ["jest"]
+  },
+  "exclude": ["node_modules"]
+}
